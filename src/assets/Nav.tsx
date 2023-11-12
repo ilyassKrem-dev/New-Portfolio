@@ -1,6 +1,6 @@
 import { ImHome3 , ImUser, ImStack , ImBook  } from "react-icons/im";
 import Link from "next/link";
-import {useRouter} from 'next/navigation'
+
 import {usePathname} from "next/navigation";
 export const navData = [
     {name:'home', path:'/', icon:<ImHome3 />},
@@ -8,11 +8,10 @@ export const navData = [
     {name:'work', path:'/work', icon:<ImStack />},
     {name:'contact', path:'/contact', icon:<ImBook />}
 ]
-import { NextResponse } from "next/server";
+
 
 export default function Nav() {
 
-    const router = useRouter()
     const pathname = usePathname()
     return (
         <nav className="h-max fixed bottom-0 flex   flex-col w-full top-0 z-50 xl:justify-center items-center gap-y-4 mt-auto xl:w-16 xl:max-w-md xl:h-screen xl:right-[2%]">

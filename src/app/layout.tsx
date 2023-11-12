@@ -20,7 +20,6 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   const pathname = usePathname()
-
   return (
     <html lang="en">
       <body className={sora.className}>
@@ -29,7 +28,7 @@ export default function RootLayout({
           <TopLeftImg />
           <Head />
           <AnimatePresence mode='wait'>
-              <motion.div key={pathname} className='h-full'>
+              <motion.div  key={pathname} className='h-full'>
                 <Transition />
                 {children}
               </motion.div>
