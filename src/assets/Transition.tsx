@@ -24,7 +24,7 @@ export default function Transition() {
             initial='initial' 
             animate='animate' 
             exit='exit'
-            transition={{delay:0.2 , duration:0.6, ease: 'easeInOut'}}
+            transition={{delay:0.01 , duration:0.6, ease: 'easeInOut'}}
             ></motion.div>
             <motion.div className="fixed right-full top-0 bottom-0 z-30 h-screen w-screen bg-blue-400/60"
             variants={varients} 

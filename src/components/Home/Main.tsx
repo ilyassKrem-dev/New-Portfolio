@@ -1,7 +1,7 @@
 import { fadeIn } from "@/varients/variants"
 import {motion} from "framer-motion"
 import Workbtn from "@/assets/Worksbtn"
-import Avatar from '@/assets/Avatar'
+import Avatar from "@/assets/Avatar"
 import Particales from "@/assets/Particales"
 export default function Homemain() {
     

@@ -1,8 +1,9 @@
-
+"use client"
+import Profile from "@/components/Profile/Profile"
 export default function profileRoute() {
     return (
       
-      <h1>Profile</h1>
+      <Profile />
     )
   }
   
