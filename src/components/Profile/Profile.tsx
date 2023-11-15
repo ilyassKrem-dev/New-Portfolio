@@ -45,7 +45,7 @@ import { fadeIn } from "@/varients/variants";
 export default function Profile() {
     
     return (
-        <div className="h-full text-center xl:text-left py-32 xl:mx-[80px]">
+        <div className="h-full text-center xl:text-left py-16 xl:py-32 xl:mx-[80px]">
             <Brush />
             <motion.div 
             variants={fadeIn('right',0.2)}
@@ -63,7 +63,7 @@ export default function Profile() {
                     initial="hidden"
                     animate="show" 
                     className="h2">
-                        I'am a <span className=" text-blue-400">Front End</span> developper
+                        I'am a <span className=" text-blue-400">Full Stack</span> developper
                     </motion.h2>
                     <motion.p
                     variants={fadeIn('right',0.3)}
@@ -96,7 +96,7 @@ export default function Profile() {
                                     <div className="flex gap-x-4">
                                         {item.icons?.map((icon,itemIndex) => {
                                             return (
-                                                <div className="flex gap-x-4 text-3xl text-blue-400 my-4">{icon}</div>
+                                                <div key={itemIndex} className="flex gap-x-4 text-3xl text-blue-400 my-4">{icon}</div>
                                             )   
                                             
                                         })}

@@ -6,13 +6,13 @@ export default function Socials() {
 
     return(
         <div className="flex items-center gap-x-6 text-xl">
-            <Link href={"/"} className=" hover:text-blue-400 transition-all duration-300">
+            <Link href={"https://www.behance.net/ilyasskre"} target={'_blank'} className=" hover:text-blue-400 transition-all duration-300">
                 <RiBehanceLine />
             </Link>
-            <Link href={"/"} className=" hover:text-blue-400 transition-all duration-300">
+            <Link href={"https://github.com/ilyassKrem-dev"} target={'_blank'} className=" hover:text-blue-400 transition-all duration-300">
                 <RiGithubLine />
             </Link>
-            <Link href={"/"} className=" hover:text-blue-400 transition-all duration-300">
+            <Link href={"https://www.linkedin.com/in/ilyass-kremcht-695213292"} target={'_blank'} className=" hover:text-blue-400 transition-all duration-300">
                 <RiLinkedinBoxLine />
             </Link>
         </div>

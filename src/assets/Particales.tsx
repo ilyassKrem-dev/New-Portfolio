@@ -72,7 +72,7 @@ export default function Particales() {
                     enable: true,
                     area:1000
                     },
-                    value:100
+                    value:200
                 },
                 opacity: {
                     value:0.5

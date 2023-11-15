@@ -14,7 +14,7 @@ export default function Nav() {
 
     const pathname = usePathname()
     return (
-        <nav className="h-max fixed bottom-0 flex   flex-col w-full top-0 z-50 xl:justify-center items-center gap-y-4 mt-auto xl:w-16 xl:max-w-md xl:h-screen xl:right-[2%]">
+        <nav className=" sticky xl:fixed bottom-0 flex   flex-col w-full top-0 z-50 xl:justify-center items-center gap-y-4 mt-auto xl:w-16 xl:max-w-md xl:h-screen xl:right-[2%]">
 
             <div className="flex w-full xl:flex-col justify-between xl:justify-center items-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] py-8 xl:h-max bg-blue-400/80 backdrop-blur-sm xl:rounded-full text-white text-3xl xl:text-xl">
                 {navData.map((item, index) => {

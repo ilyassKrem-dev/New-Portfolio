@@ -10,9 +10,9 @@ export default function Contact() {
       }
       
     return (
-        <div className="h-full">
+        <div className="h-full mt-10 xl:mt-0">
             <Brush />
-            <div className=" container mx-auto py-32 h-full flex items-center justify-center text-center xl:text-left">
+            <div className=" container mx-auto py-32 h-full flex items-center justify-center text-center xl:text-left ">
                 <div className="flex items-center justify-center flex-col w-full max-w-[700px]">
                     <motion.h2
                     variants={fadeIn('up' , 0.2)} 
@@ -25,7 +25,7 @@ export default function Contact() {
                     variants={fadeIn('down' , 0.4)} 
                     initial="hidden"
                     animate='show' 
-                    onSubmit={handleSubmit} className="flex-1 flex flex-col gap-6 w-full mx-auto ">
+                    onSubmit={handleSubmit} className="flex-1 flex flex-col gap-6 w-full mx-auto">
                         <div className="flex gap-4 w-full">
                             <input type="text" placeholder="name" className="input placeholder:text-black/70"/>
                             <input type="email" placeholder="email" className="input placeholder:text-black/70"/>

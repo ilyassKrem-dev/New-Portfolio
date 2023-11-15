@@ -6,7 +6,7 @@ import { fadeIn } from "@/varients/variants"
 export default function Work() {
 
     return(
-        <div className="h-full py-36 flex items-center">
+        <div className="h-full py-36 flex items-center mt-4 xl:mt-0">
             <Brush />
             <div className=" container mx-auto">
                 <div className="flex flex-col xl:flex-row gap-x-8 xl:mx-20">
