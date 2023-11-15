@@ -75,10 +75,11 @@ export default function WorkSlider() {
                     <div className=" items-center justify-center  relative overflow-hidden w-[300px] h-[200px] rounded-lg border-2 border-solid border-blue-400">
                       <Image
                         src={item.image}
-                        layout="fill"
-                        objectFit="cover"
-                        alt=""
-                        className=""
+                        fill
+                        className=" object-cover"
+                        alt="Project Image"
+                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 80vw, 1200px"
+                        
                       />
                       <div className="absolute inset-0 bg-gradient-to-l from-blue-400/80 via-blue-400/50 to-blue-400/80 flex flex-col items-center justify-center transition-all duration-700 opacity-0 group-hover:opacity-80">
                         <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-28 group-hover:xl:-translate-y-20 mt-20 transition-all duration-300">

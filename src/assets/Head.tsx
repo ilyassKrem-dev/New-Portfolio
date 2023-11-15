@@ -9,7 +9,7 @@ export default function Head() {
             <div className="container mx-auto">
                 <div className="flex flex-col justify-between items-center gap-y-6 py-6 lg:px-14 lg:flex-row">
                     <Link href={'/'}>
-                        <Image src={"/logo.png"} width={280} height={280} priority={true} alt="" />
+                        <Image src={"/logo.png"} width="280" height="280" priority={true} alt="Logo" className="w-auto h-auto" />
                     </Link>
                     
                     <Socials />
