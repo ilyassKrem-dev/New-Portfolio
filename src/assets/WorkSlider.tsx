@@ -85,8 +85,8 @@ export default function WorkSlider() {
                           <div className="text-black font-semibold flex flex-col items-center gap-y-2">
                             <div 
                             className="delay-200 text-xl">{item.title}</div>
-                            <div className="flex gap-x-3 translate-y-[500%] group-hover:translate-y-0
-                               transition-all duration-300 delay-200">
+                            <div className="flex gap-x-3 translate-y-[500%] group-hover:translate-y-20
+                               transition-all duration-300 delay-200 group-hover:xl:translate-y-0">
                               {item.icons.map((item, index) => {
                                 return <div className="text-red-700 text-2xl"
                                 key={index}>{item}</div>;

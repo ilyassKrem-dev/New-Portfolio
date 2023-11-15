@@ -69,7 +69,7 @@ export default function Profile() {
                     variants={fadeIn('right',0.3)}
                     initial="hidden"
                     animate="show" 
-                    className="text-black max-w-[500px] mx-auto mb-6 px-2 xl:mx-0 xl:mb-12 xl:px-0">I am always motivated to make new things and very good at adapting to new environments.
+                    className="text-black/80 max-w-[500px] mx-auto mb-6 px-2 xl:mx-0 xl:mb-12 xl:px-0 font-[400]">I am always motivated to make new things and very good at adapting to new environments.
                     </motion.p>
                     
                 </div>

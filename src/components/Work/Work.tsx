@@ -22,7 +22,7 @@ export default function Work() {
                         variants={fadeIn('up',0.3)}
                         initial="hidden"
                         animate='show'
-                        className="text-black/70 mx-auto xl:mx-0 mb-4 max-w-[400px]">Some of my projects
+                        className="text-black/80 mx-auto xl:mx-0 mb-4 max-w-[400px] font-[400]">Take a view at some of the projects I've worked on.
                         </motion.p>
                     </div>
                     <motion.div
