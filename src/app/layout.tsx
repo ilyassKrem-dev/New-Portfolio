@@ -23,17 +23,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sora.className}>
-        <div className='page relative'>
-          <Nav />
-          <TopLeftImg />
-          <Head />
-          <AnimatePresence mode='wait'>
+        <Nav />
+        <TopLeftImg />
+        <Head />
+        <AnimatePresence>
+          <div className='page relative'>
               <motion.div  key={pathname} className='h-full'>
                 <Transition />
                 {children}
-              </motion.div>
-          </AnimatePresence> 
-        </div>
+              </motion.div> 
+          </div>
+        </AnimatePresence> 
       </body>
     </html>
   )

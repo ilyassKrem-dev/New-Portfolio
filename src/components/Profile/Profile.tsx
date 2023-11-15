@@ -59,14 +59,14 @@ export default function Profile() {
                 <div 
                 className="flex-1 flex flex-col justify-center">
                     <motion.h2
-                    variants={fadeIn('right',0.4)}
+                    variants={fadeIn('right',0.3)}
                     initial="hidden"
                     animate="show" 
                     className="h2">
                         I'am a <span className=" text-blue-400">Front End</span> developper
                     </motion.h2>
                     <motion.p
-                    variants={fadeIn('right',0.4)}
+                    variants={fadeIn('right',0.3)}
                     initial="hidden"
                     animate="show" 
                     className="text-black max-w-[500px] mx-auto mb-6 px-2 xl:mx-0 xl:mb-12 xl:px-0">I am always motivated to make new things and very good at adapting to new environments.
@@ -74,7 +74,7 @@ export default function Profile() {
                     
                 </div>
                 <motion.div
-                variants={fadeIn('left',0.6)}
+                variants={fadeIn('left',0.5)}
                 initial="hidden"
                 animate="show" 
                 className="flex flex-col text-black w-full 

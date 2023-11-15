@@ -13,7 +13,7 @@ export default function Homemain() {
                     <motion.h1 
                     initial="hidden" 
                     animate="show"
-                    variants={fadeIn('down' , 0.6)}  className="h1">
+                    variants={fadeIn('down' , 0.2)}  className="h1">
                         Hi,<br /> 
                         My name is {' '}
                         <span className=" text-blue-400"> Ilyass</span>
@@ -21,19 +21,19 @@ export default function Homemain() {
                     <motion.p 
                     initial="hidden" 
                     animate="show" 
-                    variants={fadeIn('down' , 0.8)}  className="max-w-50 text-black xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-10 font-[400]">
+                    variants={fadeIn('down' , 0.4)}  className="max-w-50 text-black xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-10 font-[400]">
                         I'm a front-end developper
                     </motion.p>
                     <motion.div 
                     initial="hidden" 
                     animate="show" 
-                    variants={fadeIn('down' , 0.8)} className="flex justify-center xl:hidden relative">
+                    variants={fadeIn('down' , 0.6)} className="flex justify-center xl:hidden relative">
                         <Workbtn />
                     </motion.div>
                     <motion.div 
                     initial="hidden" 
                     animate="show" 
-                    variants={fadeIn('down' , 0.8)} className="hidden xl:flex">
+                    variants={fadeIn('down' , 0.6)} className="hidden xl:flex">
                         <Workbtn />
                     </motion.div>
                 </div>
