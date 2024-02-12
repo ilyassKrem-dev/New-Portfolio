@@ -12,7 +12,7 @@ import Nav from '@/assets/Nav'
 import TopLeftImg from "@/assets/top-left-img"
 import Head from "@/assets/Head"
 import Transition from '@/assets/Transition'
-import {useRouter , usePathname} from 'next/navigation'
+import {usePathname} from 'next/navigation'
 import {AnimatePresence , motion} from 'framer-motion'
 export default function RootLayout({
   children,
@@ -26,7 +26,7 @@ export default function RootLayout({
         <Nav />
         <TopLeftImg />
         <Head />
-        <AnimatePresence>
+        <AnimatePresence mode='wait'>
           <div className='page relative'>
               <motion.div  key={pathname} className='h-full'>
                 <Transition />

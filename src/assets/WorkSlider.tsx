@@ -4,55 +4,9 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { SiNextdotjs, SiVite, SiTailwindcss, SiCss3 } from "react-icons/si";
+import { WorkSlide } from "./slides/slides";
 import Link from "next/link";
-const WorkSlide = {
-  slides: [
-    {
-      slide: [
-        {
-          title: "Portfolio",
-          image: "/project1.jpg",
-          icons: [<SiVite />, <SiTailwindcss />, <SiCss3 />],
-          link: "https://github.com/ilyassKrem-dev/Portfolio"
-        },
-        {
-          title: "To do list",
-          image: "/project3.jpg",
-          icons: [<SiNextdotjs />, <SiTailwindcss />],
-          link: "https://github.com/ilyassKrem-dev/to-do-list"
-        },
-      ],
-    },
-    {
-      slide: [
-        {
-          title: "Weather",
-          image: "/project2.jpg",
-          icons: [<SiNextdotjs />, <SiTailwindcss />],
-          link: "https://github.com/ilyassKrem-dev/Weather-website"
-        },
-        {
-          title: "Quiz",
-          image: "/project4.jpg",
-          icons: [<SiVite />, <SiCss3 />],
-          link:"https://github.com/ilyassKrem-dev/Trevia-Game"
-        },
-        
-      ],
-    },
-    {
-      slide: [
-        {
-          title: "Tenzies",
-          image: "/project5.jpg",
-          icons: [<SiVite />, <SiCss3 />],
-          link: "https://github.com/ilyassKrem-dev/Tenzies-Game"
-        },
-      ],
-    },
-  ],
-};
+
 
 export default function WorkSlider() {
   return (
